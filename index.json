@@ -1,0 +1,18 @@
+{
+    "name": "John Doe",
+    "age": 30,
+    "occupation": "Software Engineer",
+    " hobbies": [
+      "Coding",
+      "Reading",
+      "Hiking"
+    ],
+    "address": {
+      "street": "123 Main Street",
+      "city": "Anytown",
+      "state": "CA",
+      "zipcode": "12345"
+    },
+    "isStudent": false
+  }
+  
