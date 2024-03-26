@@ -12,7 +12,7 @@ def load_content(file_path, file_extension=None):
     elif file_extension == "html":
         file_content = loader.load_html()    
     elif file_extension =="json":
-        file_content = loader.load_github_data()    
+        file_content = loader.load_gpt_data()    
     return file_content
 
 def main():

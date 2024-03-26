@@ -82,7 +82,7 @@ class documentLoaders:
         except Exception as e:
             print(f"Error:{e}")
             
-    def load_github_data(self):
+    def load_gpt_data(self):
         try:
             loader = ChatGPTLoader(self.file_path)
             gpt_loader = loader.load()
